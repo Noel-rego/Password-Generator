@@ -12,22 +12,26 @@
         <div>Password Generator</div>
         <div class="first">
             <div>erg241</div>
-            //icon//
+            <!-- icon-->
         </div>
         <div class="second">
             <div class="charlendiv"> Character Lenght
                 <input class="charlen" type="number" placeholder="">
             </div>
             <form>
-                <input type="checkbox" placeholder="Include Uppercase Letters" value="1" name="upper" >
-                <input type="checkbox" placeholder="Include Lowercase Letters" value="2" name="lower" >
-                <input type="checkbox" placeholder="Include Numbers" vlaue="3" name="number" >
-                <input type="checkbox" placeholder="Include Symbols" value="4" name="symbol" > 
+                <input type="checkbox" id="upper" value="1" name="upper" >
+                 <label for="upper">Include Uppercase Letters</label>
+                <input type="checkbox" id="lower" value="2" name="lower" >
+                 <label for="lower">Include Lowercase Letters</label>
+                <input type="checkbox"  id="number" value="3" name="number" >
+                 <label for="number">Include Numbers</label>
+                <input type="checkbox"  id="symbol" value="4" name="symbol" > 
+                 <label for="symbol">Include Symbols</label>
             </form>
             <div class="strengthdiv">
                 <div class="strenght">STRENGTH         
                     <div>medium</div>
-                    //icon//
+                    <!-- icon-->
                 </div>
             </div>
             <button id="generate" class="generate">GENERATE -></button>
@@ -36,6 +40,6 @@
 
     </main>
     <footer></footer>
-    
+    <script src="first.js"></script>
 </body>
 </html>
