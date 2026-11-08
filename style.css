@@ -2,12 +2,31 @@
     margin: 0;
     font-family: 'Courier New', Courier, monospace;
     box-sizing: border-box;
-    color:rgba(117, 58, 213, 0.913);
+    color:rgb(252, 249, 255);
+}
+.heading{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: rgb(122, 4, 240);
 }
 main{
-    background-color: rgba(21, 20, 20, 0.984);
+    background-color: rgba(20, 7, 7, 0.984);
     min-height: 1000px;
     width: auto;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.second{
+    display: flex;
+    flex-direction: column;
+
+}
+.strengthdiv{
+    display: flex;
+    flex-direction: row;
+    
     
 }
