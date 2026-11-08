@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+    color:rgba(117, 58, 213, 0.913);
+}
+main{
+    background-color: rgba(21, 20, 20, 0.984);
+    min-height: 1000px;
+    width: auto;
+    justify-content: center;
+    
+}
